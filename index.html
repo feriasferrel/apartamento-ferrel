@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apartamento T3 em Ferrel | Férias junto ao Mar</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero{
+    max-width:800px;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:3.5rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    background:#0ea5e9;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0284c7;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.2rem;
+    color:#0f172a;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#0284c7;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.highlight{
+    background:#f8fafc;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.info ul{
+    list-style:none;
+}
+
+.info li{
+    padding:10px 0;
+}
+
+.booking{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.booking h2{
+    margin-bottom:20px;
+}
+
+.contact-box{
+    max-width:700px;
+    margin:auto;
+}
+
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:10px;
+}
+
+.contact-box button{
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    background:#020617;
+    color:#fff;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.3rem;
+}
+
+.info{
+    grid-template-columns:1fr;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Apartamento T3 em Ferrel</h1>
+        <p>O refúgio perfeito para até 6 hóspedes, a poucos minutos das praias do Baleal e Peniche.</p>
+        <a href="#reservas" class="btn">Reservar Agora</a>
+    </div>
+</header>
+
+<section>
+    <div class="section-title">
+        <h2>Bem-vindo a Ferrel</h2>
+    </div>
+
+    <p style="text-align:center;max-width:900px;margin:auto;">
+        Desfrute de umas férias inesquecíveis na costa oeste de Portugal.
+        Este espaçoso apartamento T3 oferece conforto, tranquilidade e uma localização privilegiada para explorar as praias, o surf, a gastronomia e a natureza da região.
+    </p>
+</section>
+
+<section class="highlight">
+    <div class="section-title">
+        <h2>O Apartamento</h2>
+    </div>
+
+    <div class="features">
+
+        <div class="card">
+            <h3>👨‍👩‍👧‍👦 Até 6 hóspedes</h3>
+            <p>Ideal para famílias ou grupos de amigos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛏️ 3 Quartos</h3>
+            <p>Espaços confortáveis e luminosos.</p>
+        </div>
+
+        <div class="card">
+            <h3>📶 Wi-Fi Gratuito</h3>
+            <p>Internet rápida para trabalho ou lazer.</p>
+        </div>
+
+        <div class="card">
+            <h3>🍽️ Cozinha Equipada</h3>
+            <p>Tudo o que precisa para cozinhar.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚗 Estacionamento</h3>
+            <p>Facilidade de acesso durante a estadia.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏖️ Perto da Praia</h3>
+            <p>A poucos minutos das melhores praias.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>Galeria</h2>
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858" alt="">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156" alt="">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="">
+        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688" alt="">
+    </div>
+</section>
+
+<section class="highlight">
+    <div class="section-title">
+        <h2>Informações</h2>
+    </div>
+
+    <div class="info">
+
+        <div>
+            <h3>Comodidades</h3>
+            <ul>
+                <li>✔ Wi-Fi</li>
+                <li>✔ Cozinha completa</li>
+                <li>✔ Máquina de lavar roupa</li>
+                <li>✔ TV</li>
+                <li>✔ Varanda</li>
+                <li>✔ Roupa de cama incluída</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Localização</h3>
+            <ul>
+                <li>📍 Ferrel, Peniche</li>
+                <li>🏄 Próximo do Baleal</li>
+                <li>🌊 Praias e surf</li>
+                <li>🍴 Restaurantes locais</li>
+                <li>🚘 Fácil acesso a Peniche</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section id="reservas" class="booking">
+
+    <div class="contact-box">
+
+        <h2>Pedido de Reserva</h2>
+
+        <p style="margin-bottom:30px;">
+            Entre em contacto para verificar disponibilidade.
+        </p>
+
+        <form>
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Telefone">
+            <textarea rows="5" placeholder="Datas pretendidas e mensagem"></textarea>
+
+            <button class="btn">
+                Enviar Pedido
+            </button>
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Apartamento T3 Ferrel | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
