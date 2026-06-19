@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
@@ -161,6 +160,18 @@ footer{
     padding:30px;
 }
 
+#success{
+    display:none;
+    text-align:center;
+    max-width:600px;
+    margin:auto;
+}
+
+#success h2{
+    color:#22c55e;
+    margin-bottom:15px;
+}
+
 @media(max-width:768px){
 
 .hero h1{
@@ -173,12 +184,11 @@ footer{
 
 }
 </style>
-
 </head>
 
 <body>
 
-<header>
+<header id="topo">
     <div class="hero">
         <h1>Apartamento T3 em Ferrel</h1>
         <p>O refúgio perfeito para até 6 hóspedes, a poucos minutos das praias do Baleal e Peniche.</p>
@@ -191,13 +201,10 @@ footer{
         <h2>Bem-vindo a Ferrel</h2>
     </div>
 
-```
-<p style="text-align:center;max-width:900px;margin:auto;">
-    Desfrute de umas férias inesquecíveis na costa oeste de Portugal.
-    Este espaçoso apartamento T3 oferece conforto, tranquilidade e uma localização privilegiada para explorar as praias, o surf, a gastronomia e a natureza da região.
-</p>
-```
-
+    <p style="text-align:center;max-width:900px;margin:auto;">
+        Desfrute de umas férias inesquecíveis na costa oeste de Portugal.
+        Este espaçoso apartamento T3 oferece conforto, tranquilidade e localização privilegiada.
+    </p>
 </section>
 
 <section class="highlight">
@@ -205,42 +212,16 @@ footer{
         <h2>O Apartamento</h2>
     </div>
 
-```
-<div class="features">
+    <div class="features">
 
-    <div class="card">
-        <h3>👨‍👩‍👧‍👦 Até 6 hóspedes</h3>
-        <p>Ideal para famílias ou grupos de amigos.</p>
+        <div class="card"><h3>👨‍👩‍👧‍👦 Até 6 hóspedes</h3><p>Ideal para famílias.</p></div>
+        <div class="card"><h3>🛏️ 3 Quartos</h3><p>Confortáveis e espaçosos.</p></div>
+        <div class="card"><h3>📶 Wi-Fi</h3><p>Internet rápida.</p></div>
+        <div class="card"><h3>🍽️ Cozinha</h3><p>Totalmente equipada.</p></div>
+        <div class="card"><h3>🚗 Estacionamento</h3><p>Fácil acesso.</p></div>
+        <div class="card"><h3>🏖️ Praia</h3><p>Perto do Baleal.</p></div>
+
     </div>
-
-    <div class="card">
-        <h3>🛏️ 3 Quartos</h3>
-        <p>Espaços confortáveis e luminosos.</p>
-    </div>
-
-    <div class="card">
-        <h3>📶 Wi-Fi Gratuito</h3>
-        <p>Internet rápida para trabalho ou lazer.</p>
-    </div>
-
-    <div class="card">
-        <h3>🍽️ Cozinha Equipada</h3>
-        <p>Tudo o que precisa para cozinhar.</p>
-    </div>
-
-    <div class="card">
-        <h3>🚗 Estacionamento</h3>
-        <p>Facilidade de acesso durante a estadia.</p>
-    </div>
-
-    <div class="card">
-        <h3>🏖️ Perto da Praia</h3>
-        <p>A poucos minutos das melhores praias.</p>
-    </div>
-
-</div>
-```
-
 </section>
 
 <section>
@@ -248,17 +229,14 @@ footer{
         <h2>Galeria</h2>
     </div>
 
-```
-<div class="gallery">
-    <img src="images/geral.jpg" alt="Vista geral">
-    <img src="images/Cozinha.jpg" alt="Cozinha">
-    <img src="images/Sala.jpg" alt="Sala">
-    <img src="images/Quarto1.jpg" alt="Quarto 1">
-    <img src="images/Quarto2.jpg" alt="Quarto 2">
-    <img src="images/Quarto3.jpg" alt="Quarto 3">
-</div>
-```
-
+    <div class="gallery">
+        <img src="images/geral.jpg">
+        <img src="images/Cozinha.jpg">
+        <img src="images/Sala.jpg">
+        <img src="images/Quarto1.jpg">
+        <img src="images/Quarto2.jpg">
+        <img src="images/Quarto3.jpg">
+    </div>
 </section>
 
 <section class="highlight">
@@ -266,103 +244,94 @@ footer{
         <h2>Informações</h2>
     </div>
 
-```
-<div class="info">
+    <div class="info">
 
-    <div>
-        <h3>Comodidades</h3>
-        <ul>
-            <li>✔ Wi-Fi</li>
-            <li>✔ Cozinha completa</li>
-            <li>✔ Máquina de lavar roupa</li>
-            <li>✔ TV</li>
-            <li>✔ Varanda</li>
-            <li>✔ Roupa de cama incluída</li>
-        </ul>
+        <div>
+            <h3>Comodidades</h3>
+            <ul>
+                <li>✔ Wi-Fi</li>
+                <li>✔ Cozinha completa</li>
+                <li>✔ Máquina de lavar roupa</li>
+                <li>✔ TV</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Localização</h3>
+            <ul>
+                <li>📍 Ferrel</li>
+                <li>🏄 Baleal</li>
+                <li>🌊 Surf</li>
+            </ul>
+        </div>
+
     </div>
-
-    <div>
-        <h3>Localização</h3>
-        <ul>
-            <li>📍 Ferrel, Peniche</li>
-            <li>🏄 Próximo do Baleal</li>
-            <li>🌊 Praias e surf</li>
-            <li>🍴 Restaurantes locais</li>
-            <li>🚘 Fácil acesso a Peniche</li>
-        </ul>
-    </div>
-
-</div>
-```
-
 </section>
 
 <section id="reservas" class="booking">
 
-```
-<div class="contact-box">
+    <div class="contact-box" id="formBox">
 
-    <h2>Pedido de Reserva</h2>
+        <h2>Pedido de Reserva</h2>
 
-    <p style="margin-bottom:30px;">
-        Entre em contacto para verificar disponibilidade.
-    </p>
+        <p style="margin-bottom:30px;">
+            Envie o seu pedido e respondemos rapidamente.
+        </p>
 
-    <form action="https://formsubmit.co/ferias.ferrel@gmail.com" method="POST">
+        <form id="formReserva"
+              action="https://formsubmit.co/ferias.ferrel@gmail.com"
+              method="POST">
 
-        <input type="hidden"
-               name="_subject"
-               value="Novo Pedido de Reserva - Apartamento T3 Ferrel">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Novo Pedido de Reserva">
 
-        <input type="hidden"
-               name="_captcha"
-               value="false">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="telefone" placeholder="Telefone">
 
-        <input
-            type="text"
-            name="nome"
-            placeholder="Nome Completo"
-            required>
+            <input type="date" name="entrada">
+            <input type="date" name="saida">
 
-        <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            required>
+            <textarea name="mensagem" placeholder="Mensagem" required></textarea>
 
-        <input
-            type="tel"
-            name="telefone"
-            placeholder="Telefone">
+            <button class="btn" type="submit">
+                Enviar Pedido
+            </button>
 
-        <input
-            type="date"
-            name="entrada">
+        </form>
+    </div>
 
-        <input
-            type="date"
-            name="saida">
-
-        <textarea
-            rows="5"
-            name="mensagem"
-            placeholder="Indique as datas pretendidas, número de hóspedes e qualquer informação adicional."
-            required></textarea>
-
-        <button type="submit" class="btn">
-            Enviar Pedido de Reserva
-        </button>
-
-    </form>
-
-</div>
-```
+    <div id="success">
+        <h2>✅ Pedido Enviado com Sucesso!</h2>
+        <p>Obrigado pelo seu contacto. Responderemos em breve.</p>
+        <br>
+        <a href="#topo" class="btn">Voltar à Página Inicial</a>
+    </div>
 
 </section>
 
 <footer>
-    <p>© 2026 Apartamento T3 Ferrel | Todos os direitos reservados</p>
+    <p>© 2026 Apartamento T3 Ferrel</p>
 </footer>
+
+<script>
+document.getElementById("formReserva").addEventListener("submit", async function(e){
+    e.preventDefault();
+
+    const form = e.target;
+    const data = new FormData(form);
+
+    await fetch(form.action, {
+        method: "POST",
+        body: data
+    });
+
+    document.getElementById("formBox").style.display = "none";
+    document.getElementById("success").style.display = "block";
+
+    document.getElementById("reservas").scrollIntoView({behavior:"smooth"});
+});
+</script>
 
 </body>
 </html>
